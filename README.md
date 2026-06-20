@@ -43,8 +43,11 @@ sliced by department, activity, resource, and improvement opportunity.
 - Rebalance resources toward **Customer Service** to recover SLA achievement.
 - Standardise rework-prone steps to drive the error rate below current **5.6%**.
 
-## 📈 Dashboard Features (interactive, single landscape page)
-An **interactive Excel dashboard** built on native **PivotTables, PivotCharts, and Slicers**, laid out on one landscape page that fits a single screenshot:
+## 📊 Dashboard
+
+![Dashboard Screenshot](docs/screenshots/dashboard_screenshot.png)
+
+An **interactive Excel dashboard** built on native **PivotTables, PivotCharts, and Slicers**, laid out on one landscape page:
 - **Slicers (left rail):** **Department, Process Status, Improvement Opportunity** — click any value and **every chart and KPI re-filters instantly** (all four PivotCharts and the KPI cards share one PivotCache).
 - **KPI band (top):** Avg Cycle Time, SLA Achievement %, Avg Process Cost, Avg Error Rate, Avg Productivity — live `GETPIVOTDATA` cards that update with the slicers.
 - **PivotCharts (2×2):** Avg Cycle Time by Department, Bottleneck — Avg Waiting Time by Activity, Total Process Cost by Department, SLA Achievement % by Department.
